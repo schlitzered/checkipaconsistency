@@ -1,3 +1,5 @@
+venv
+check_ipa_linux.sh
 __pycache__
 *.pyc
 .idea

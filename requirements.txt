@@ -1,4 +1,6 @@
-pplogger
-dnspython
-prettytable
+pplogger~=4.2.0
+dnspython~=2.1.0
+prettytable~=2.1.0
 python-ldap
+pyyaml
+setuptools~=57.0.0
