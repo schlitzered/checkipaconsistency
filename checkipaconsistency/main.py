@@ -189,7 +189,7 @@ class Main(object):
                             help='log to file (./{0}.log by default)'.format(self._app_name))
         parser.add_argument('--no-header', action='store_true', dest='disable_header', help='disable table header')
         parser.add_argument('--no-border', action='store_true', dest='disable_border', help='disable table border')
-        parser.add_argument('-o', '--output', nargs='?', dest='output', help='output type', default='not_set',
+        parser.add_argument('-o', '--output', nargs='?', dest='output', help='output type', default='cli',
                             choices=['cli', 'json', 'yaml'])
 
         args = parser.parse_args()
